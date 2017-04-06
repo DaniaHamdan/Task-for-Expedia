@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="hotles"  ng-controller="Controller">
+<head>
+	<title>Home</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+<body >
+<div ng-init="show()">
+ <div ng-repeat="hotle in hotles">
+<ul>
+ <img src="{{hotle.hotelInfo.hotelImageUrl }}" style="width: 180px;height: 280px">
+<li > Hotel Name:  {{hotle.destination.longName}}</li>
+<li > regionID:    {{hotle.destination.regionID}}</li>
+<li > Hotel Country: {{hotle.destination.country}}</li>
+<li > Hotel description: {{hotle.hotelInfo.description}}</li>
+</ul>
+</div>
+	<script src="controller/app.js"></script>
+<script src="controller.js"></script>
+
+</body>
+</html>

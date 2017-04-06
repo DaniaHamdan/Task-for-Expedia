@@ -1,0 +1,28 @@
+{
+  "name": "Task-for-Expedia",
+  "version": "1.0.0",
+  "description": "simple task",
+  "main": "server.js.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniaHamdan/Task-for-Expedia.git"
+  },
+  "author": "Dania Hamdan",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.5.0",
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DaniaHamdan/Task-for-Expedia/issues"
+  },
+  "homepage": "https://github.com/DaniaHamdan/Task-for-Expedia#readme",
+    "devDependencies": {
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  }
+}
