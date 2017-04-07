@@ -6,7 +6,7 @@ require('./config/middleware.js')(app, express);
 require('./config/routes.js')(app, express);
 
 // express to listen to for requests or certain port
-app.listen(process.env.PORT || 3000,function(){
+app.listen(process.env.PORT || 5000,function(){
 	console.log('I am listening on port 3000');
 	});
 
