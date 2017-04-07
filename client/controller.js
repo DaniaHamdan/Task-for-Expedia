@@ -1,5 +1,5 @@
-var app=angular.module('hotles',[])
-app.controller('Controller',function ($scope, $http){
+angular.module('hotles',[])
+.controller('Controller',function ($scope, $http){
 	$scope.hotles={};
 	$scope.show = function(){
 		return $http({
