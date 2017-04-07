@@ -6,13 +6,13 @@
 </head>
 <body >	
 	<div ng-init="getdata()">
-		<div ng-repeat="hotle in hotles">
+		<div ng-repeat="hotel in hotels">
 			<ul>
-				<img src="{{hotle.hotelInfo.hotelImageUrl }}" style="width: 250px;height: 280px">
-				<li>Hotel Name : {{hotle.destination.longName}}</li>
-				<li > Hotel Country : {{hotle.destination.country}}</li>
-				<li > regionID : {{hotle.destination.regionID}}</li>
-				<li>Offer Date Range from : {{hotle.offerDateRange.travelStartDate}} to : {{hotle.offerDateRange.travelEndDate}} </p></li>
+				<img src="{{hotel.hotelInfo.hotelImageUrl }}" style="width: 250px;height: 280px">
+				<li>Hotel Name : {{hotel.destination.longName}}</li>
+				<li > Hotel Country : {{hotel.destination.country}}</li>
+				<li > regionID : {{hotel.destination.regionID}}</li>
+				<li>Offer Date Range from : {{hotel.offerDateRange.travelStartDate}} to : {{hotel.offerDateRange.travelEndDate}} </p></li>
 			</ul>
 		</div>
 	</div>	
